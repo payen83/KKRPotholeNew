@@ -1,0 +1,90 @@
+ion-item {
+    border-radius: 19px;
+    margin-bottom: .9rem;
+  }
+  
+  ion-card {
+    border-radius: 2.3rem;
+    margin: 1.8rem 1.5rem;
+    background-color: whitesmoke;
+  }
+  
+  .background {
+    background: url(../../../assets/img/bg-login.png) no-repeat center/cover fixed;
+    z-index: -1;
+    height: 130%;
+    width: 100%;
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+  
+  ion-item {
+    box-shadow: 0 1px 3px 0 var(--ion-color-medium);
+  }
+  
+  ion-router-link {
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  ion-button {
+    --border-radius: 19px;
+  }
+  
+  .bg-primary {
+    background: linear-gradient(var(--ion-color-primary), #a8b6c5fc);
+    height: 45vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    box-shadow: 0 1px 3px 0 var(--ion-color-medium);
+  }
+  
+  ion-item.item-inner {
+    --border-style: none !important;
+  }
+  
+  .input-group {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .errors {
+    float: right;
+    font-size: 10px;
+    color: var(--ion-color-danger);
+    padding: 0;
+  }
+  
+  .no-account {
+    //margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    //bottom: 10px;
+    position: absolute;
+  }
+  
+  ion-col {
+    --ion-grid-column-padding: 2px;
+  }
+  
+  ion-label{
+    color: var(--ion-color-medium);
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  .scroll-content {
+    padding-bottom: 0 !important;
+  }
+  
