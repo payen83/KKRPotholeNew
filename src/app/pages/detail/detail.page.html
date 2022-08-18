@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title>Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="item">
+    <ion-card-header>
+      <ion-card-subtitle>{{ item.sispaa_id }}</ion-card-subtitle>
+      <ion-card-title>{{ item.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Alamat: {{ item.address }}</p>
+      <p>Keterangan: {{ item.detail }}</p>
+      <p>Status: {{ item.status_desc }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
